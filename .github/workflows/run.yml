@@ -129,7 +129,7 @@ jobs:
         y2='\"'
         r=${r//${y1}/${y2}}
         result="${result}\n${r}"
-        echo "----------"
+        echo "----------" 
         done
 
         [ g"${WorkWeiBot}" != g"" ] && WorkWei "${result}" || echo "未设置企业微信通知"
